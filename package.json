@@ -1,0 +1,21 @@
+{
+  "name": "gulp-gitversion",
+  "version": "0.0.1",
+  "description": "gulp plugin for appending git-version",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "gulp",
+    "plugin",
+    "for",
+    "appending",
+    "git-version"
+  ],
+  "author": "blackbing",
+  "license": "MIT",
+  "dependencies": {
+    "map-stream": "^0.1.0"
+  }
+}
