@@ -4,7 +4,7 @@ module.exports = function() {
   return streamMap(function(file, cb) {
     child_process.exec('git rev-parse HEAD', function (error ,stdout) {
       var string = [
-        '\n',
+        ';\n',
         '// git version:' + stdout,
         '// create at: ' + new Date()
       ].join('');
