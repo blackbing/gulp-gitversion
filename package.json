@@ -17,5 +17,10 @@
   "license": "MIT",
   "dependencies": {
     "map-stream": "^0.1.0"
+  },
+  "homepage": "https://github.com/blackbing/gulp-gitversion",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:blackbing/gulp-gitversion.git"
   }
 }
