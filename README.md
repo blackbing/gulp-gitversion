@@ -1,4 +1,4 @@
-gulp-gitversion
+gulp-gitversion [![Build Status](https://travis-ci.org/blackbing/gulp-gitversion.svg?branch=master)](https://travis-ci.org/blackbing/gulp-gitversion)
 ===============
 
 gulp plugin for appending git-version
