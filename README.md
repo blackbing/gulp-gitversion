@@ -3,7 +3,11 @@ gulp-gitversion
 
 gulp plugin for appending git-version
 
-#Usage
+# Install
+
+```npm install gulp-gitversion --save-dev```
+
+# Usage
 ```
 gitVersion = require('gulp-gitversion');
 
