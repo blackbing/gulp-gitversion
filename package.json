@@ -1,10 +1,10 @@
 {
   "name": "gulp-gitversion",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "gulp plugin for appending git-version",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "mocha test/*.js"
   },
   "keywords": [
     "gulp",
@@ -22,5 +22,11 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:blackbing/gulp-gitversion.git"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.0",
+    "gulp-util": "^2.2.14",
+    "chai": "^1.9.1",
+    "readable-stream": "^1.0.27-1"
   }
 }
