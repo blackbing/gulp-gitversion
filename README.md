@@ -14,6 +14,17 @@ var gitVersion = require('gulp-gitversion');
 
 # Append git version
 
+### auto detecting by extension name
+
+If you don't specify the type, it will be decided it by file extension name.
+
+#### Support type
+* js
+* css
+* html
+
+```.pipe(gitVersion()); ```
+
 ### js
 
 ```.pipe(gitVersion({type:'js'})); ```

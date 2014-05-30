@@ -1,5 +1,6 @@
 var streamMap = require('map-stream');
 var child_process = require('child_process');
+var path = require('path');
 
 
 var trim=function(s){return s.replace(/^\s+|\s+$/g, '');};
@@ -21,8 +22,10 @@ module.exports = function(opts) {
 
   return streamMap(function(file, cb) {
     if(!opts){
+      var extname = path.extname(file.path);
+      extname = extname.substr(1);
       opts = {}
-      opts.type = 'js'
+      opts.type = extname;
     }
     wrapType = WrapTypes[opts.type];
     if(!wrapType){
