@@ -1,6 +1,6 @@
 {
   "name": "gulp-gitversion",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "gulp plugin for appending git-version",
   "main": "index.js",
   "scripts": {

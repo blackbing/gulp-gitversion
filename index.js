@@ -12,10 +12,10 @@ module.exports = function(opts) {
       return ";\n// git version: " + v + "\n// created at: " + d;
     },
     'css': function(v){
-      return "/* git version: " + v + " */\n/* created at: " + d + "*/";
+      return "\n/* git version: " + v + " */\n/* created at: " + d + "*/";
     },
     'html': function(v){
-      return "<!-- git version: " + v + " -->" + "\n<!-- created at: " + d + " -->";
+      return "\n<!-- git version: " + v + " -->" + "\n<!-- created at: " + d + " -->";
     }
   };
 
